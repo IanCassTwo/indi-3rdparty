@@ -233,7 +233,7 @@ bool MMALDriver::initProperties()
     addDebugControl();
 
     SetCCDCapability(0
-                     | CCD_CAN_BIN			// Does the CCD support binning?
+                     // | CCD_CAN_BIN			// Does the CCD support binning?
                      | CCD_CAN_SUBFRAME		// Does the CCD support setting ROI?
                      //	| CCD_CAN_ABORT			// Can the CCD exposure be aborted?
                      //	| CCD_HAS_GUIDE_HEAD	// Does the CCD have a guide head?
